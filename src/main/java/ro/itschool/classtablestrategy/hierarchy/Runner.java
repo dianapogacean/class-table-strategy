@@ -19,7 +19,7 @@ public class Runner implements CommandLineRunner {
         customer.setPhone("9999");
         customer.setEmail("eeee");
         customer.setPassword("pass");
-        customer.setUsername("ser");\
+        customer.setUsername("ser");
 
         userRepo.save(customer);
     }
